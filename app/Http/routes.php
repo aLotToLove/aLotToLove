@@ -15,4 +15,23 @@ $app->get('/', function () use ($app) {
     return view('index');
 });
 
+$app->get('/howto', function () use ($app) {
+    return view('howto');
+});
+
+$app->get('/grants', function () use ($app) {
+    return view('grants');
+});
+
+$app->get('/inspiration', function () use ($app) {
+    return view('inspiration');
+});
+
+$app->get('/getfunding', function () use ($app) {
+    return view('getfunding');
+});
+
+$app->get('/contact', function () use ($app) {
+    return view('contact');
+});
 

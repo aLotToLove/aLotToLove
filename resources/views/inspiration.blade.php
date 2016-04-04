@@ -2,6 +2,6 @@
 
   @section('content')
 
-    <h1>Welcome to A Lot to Love!</h1>
+    <h1>Some Inspiration!</h1>
 
   @stop
