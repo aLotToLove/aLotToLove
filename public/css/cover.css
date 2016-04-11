@@ -1,4 +1,8 @@
-
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
 
 /* Custom default button */
 .btn-default,
@@ -182,4 +186,20 @@ background-color: rgb(24, 124, 8);
 }
 .modal-dialog{
     border-radius: 24px;
+}
+
+#navigation {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  margin: 15px 25px 0;
+}
+
+#navigation > li {
+  font-size: 2.5em;
+  display: inline-block;
+}
+
+#mainHeader {
+  padding-top: 25px;
 }
